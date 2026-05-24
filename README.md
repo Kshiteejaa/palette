@@ -1,37 +1,54 @@
-# Palette 
+# Palette 🎨
 
-A full-stack platform for independent artists to showcase and promote 
-their creative work — paintings, illustrations, and portfolios.
+Palette is a full-stack platform for independent artists to showcase, manage, and promote their creative work — including paintings, illustrations, and digital portfolios.
 
 ## Why I Built This
 
-Independent artists have no dedicated, clean space to present their 
-work online. Palette is built to change that — giving artists a 
-platform to share their work and connect with people who appreciate it.
+Many independent artists lack a clean, dedicated platform to present their work professionally online. Palette aims to provide a modern space where artists can showcase their creativity and connect with audiences.
 
-## Status
+## Project Status
 
-Active development — backend APIs complete, React frontend in progress.
+🚧 Active development  
+- Backend APIs completed  
+- React frontend currently in progress  
 
 ## Tech Stack
 
-- **Backend:** Java 21, Spring Boot, Spring Data JPA, REST APIs
-- **Frontend:** React (in progress)
-- **Database:** MySQL (H2 for local dev)
-- **Architecture:** Event-driven, layered architecture
+### Backend
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- REST APIs
 
-## Features (Current)
+### Frontend
+- React (in progress)
 
-- Artist and artwork management APIs
+### Database
+- MySQL
+- H2 Database (local development)
+
+### Architecture
+- Event-driven architecture
+- Layered backend design
+
+## Current Features
+
+- Artist management APIs
+- Artwork management APIs
 - Event-driven order lifecycle handling
-- RESTful endpoints with validation and error handling
+- RESTful API architecture
+- Database relationships using JPA/Hibernate
+- Validation and exception handling
 
 ## Planned Features
 
 - Artist profile pages
-- Portfolio gallery with image uploads
-- Discovery feed for artwork browsing
-- Authentication and user management
+- Artwork portfolio galleries
+- Image uploads
+- Artwork discovery feed
+- Authentication and authorization
+- User dashboard
 
 ## Running Locally
 
@@ -40,6 +57,7 @@ git clone https://github.com/Kshiteejaa/palette.git
 cd palette
 ./mvnw spring-boot:run
 ```
+
 App runs on http://localhost:8080
 
 ## Author
